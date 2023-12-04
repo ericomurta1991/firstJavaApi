@@ -6,7 +6,6 @@ import java.util.List;
 import java.util.Map;
 
 import org.springframework.http.HttpStatus;
-import org.springframework.http.HttpStatusCode;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 
@@ -27,7 +26,7 @@ public class UserService {
 	}
 	
 	//search for  all users
-	public List<User> serachAllUsers(){
+	public List<User> searchAllUsers(){
 		return new ArrayList<>(userList.values());
 	}
 	
